@@ -89,9 +89,9 @@ message VibrationPattern
   // Idle period durations
   repeated double idle_periods = 3;
   // Vibration frequencies
-  repeated double vibe_freqs = 2;
+  repeated double vibe_freqs = 4;
   // Vibration amplitudes
-  repeated double vibe_amps = 3;
+  repeated double vibe_amps = 5;
 }
 
 // Vibration sensor reading.

@@ -86,12 +86,10 @@ message VibrationPattern
   optional Header header = 1;
   // Vibration period durations
   repeated uint32 vibe_periods = 2;
-  // Idle period durations
-  repeated uint32 idle_periods = 3;
   // Vibration frequencies
-  repeated double vibe_freqs = 4;
+  repeated double vibe_freqs = 3;
   // Vibration amplitudes
-  repeated uint32 vibe_amps = 5;
+  repeated uint32 vibe_amps = 4;
 }
 
 // Vibration sensor reading.

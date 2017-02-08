@@ -1,5 +1,7 @@
 // Device messages.
 // Messages containing sensor data and actuator commands.
+syntax = "proto2";
+
 import "base_msgs.proto";
 
 package AssisiMsg;

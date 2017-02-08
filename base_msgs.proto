@@ -1,6 +1,7 @@
 // Base message types.
 // These are the base message types. They represent the building-blocks of complex messages.
 // Unless othervise noted, distances are in cm, other units are SI units. Angles are in radians.
+syntax = "proto2";
 
 package AssisiMsg;
 

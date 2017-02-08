@@ -1,5 +1,7 @@
 // Simulator message types.
 // These message types are used for creating objects and controlling the behavior of the simulated world.
+syntax = "proto2";
+
 import "base_msgs.proto";
 
 package AssisiMsg;

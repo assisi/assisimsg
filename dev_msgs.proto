@@ -43,6 +43,8 @@ message Temperature
   optional Header header = 1;
   // Temperature value, in °C.
   required float temp = 2;
+  // Temperature slope (used when setting references)
+  optional float slope = 3;
 }
 
 // Array of Temperature values
